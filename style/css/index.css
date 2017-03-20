@@ -1,0 +1,108 @@
+/* 顶部标题 */
+	.top{
+		height: 50px;
+		background-color: #337ab7;
+	}
+	.top-title{
+		font-size: 30px;
+		line-height:55px;
+		margin-left: 20px;
+	}
+
+/* 顶部导航栏 */
+	.nav-all{
+		margin-left: 20px;
+		margin-top: 4px;
+		font-size: 16px;
+	}
+	.nav-left{
+		float: left;
+	}
+	.nav-right{
+		float: right;
+		margin-right: 3%;
+	}
+	.nav-line{
+		width:auto;
+		height:1px;
+		background:#E0E0E0;
+		margin-top: 47px;
+	}
+/* 公告栏 */
+	.notice{
+		width: 14%;
+		margin-top: 40px;
+		margin-left: 15px;
+		float: left;
+	}
+
+/* 身体 */
+	.body{
+		margin-top: 20px;
+		margin-left: 245px;
+	}
+	.row{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.col-sm-6{
+		width: 29%;
+	}
+
+/* body顶部 */
+	.alert{
+		background-color:#404244;
+		color: #fad3d3;
+		width: 943px;
+		margin-bottom:2px;
+		padding: 10px;
+	}
+
+/* 搜索 */
+	.search{
+		/*width: 160px;*/
+		margin-top: 6px;
+		margin-bottom: 6px;
+		overflow:hidden;
+	}
+	.search-index{
+		float: left;
+		width: 281px;
+	}
+	.search-index input{
+		height: 35px;
+		width: 160px;
+	}
+	.search-button{
+		/*overflow:inherit;*/
+	}
+	.input-group .form-control{
+		width: 180px;
+	}
+	.input-group .search-index{
+		width: 35px;
+	}
+
+/* 底部 */
+	.foot{
+		text-align: center;
+	}
+
+
+/* 心得分享页面 */
+
+.body-main{
+	width: 84%;
+	margin-top: 10px;
+}
+.body-main table th{
+	font-size: 16px;
+	background-color: #8baac6;
+	/*text-align: center;*/
+}
+.dropdown-menu{
+	min-width: 77px;
+}
+.deal-button{
+	text-align: center;
+}
