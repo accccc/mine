@@ -1,8 +1,26 @@
 <?php $this->load->view('common/header.html') ?>
 <?php $this->load->view('common/notice.html') ?>
 <div class="body">
-	<?php $this->load->view('common/body_top.html') ?>
+	<div class="body-top">
+		<div class="alert" role="">
+			<span class="">小标题</span>
+		</div>
+	</div>
+	<div class="search">
+		<div class="input-group search-index">
+		  	<span class="input-group-addon" id="basic-addon1">书名：</span>
+		  	<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+		</div>
+		<div class="search-button">
+			<a href="#" class="btn btn-primary" role="button">搜索</a>
+		</div>
+	</div>
 	<div class="body-main">
+	<div class="panel panel-default">
+		<div class="panel-body">
+	    	Panel content
+		</div>
+	</div>
 		<table class="table table-hover table-bordered">
 		<thead>
 			<tr>
@@ -18,12 +36,12 @@
 			<td>qwe</td>
 			<td>qwe</td>
 			<td>qwe</td>
-			<td class="deal-button">
+			<td class="deal-button" style="text-align: center">
 				<div class="btn-group">
 				  	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span>
 				  	</button>
 					<ul class="dropdown-menu">
-					  <li><a href="#">详情</a></li>
+					  <li><a href="<?php echo site_url('?c=index_index&m=') ?>">详情</a></li>
 					  <li><a href="#">编辑</a></li>
 					  <li><a href="#">删除</a></li>
 					</ul>
@@ -35,8 +53,20 @@
 			<td>ert</td>
 			<td>ert</td>
 			<td>ert</td>
-			<td>ert</td>
+			<td class="deal-button" style="text-align: center">
+				<div class="btn-group">
+				  	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">操作<span class="caret"></span>
+				  	</button>
+					<ul class="dropdown-menu">
+					  <li><a href="#">详情</a></li>
+					  <li><a href="#">编辑</a></li>
+					  <li><a href="#">删除</a></li>
+					</ul>
+				</div>
+			</td>
 		</tr>
 		</table>
+		<?php $this->load->view('common/pagination.html') ?>
 	</div>
 </div>
+<?php $this->load->view('common/footer.html') ?>

@@ -1,14 +1,18 @@
 <?php $this->load->view('common/header.html') ?>
 <?php $this->load->view('common/notice.html') ?>
 <div class="body">
-	<?php $this->load->view('common/body_top.html') ?>
+	<div class="body-top">
+    <div class="alert" role="">
+      <span class="">最新发布</span>
+    </div>
+  </div>
 	<div class="search">
 		<div class="input-group search-index">
 		  	<span class="input-group-addon" id="basic-addon1">书名：</span>
 		  	<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
 		</div>
 		<div class="search-button">
-			<a href="#" class="btn btn-primary" role="button">Button</a>
+			<a href="#" class="btn btn-primary" role="button">搜索</a>
 		</div>
 	</div>
 	<div class="row">

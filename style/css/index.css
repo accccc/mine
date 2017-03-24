@@ -92,7 +92,7 @@
 /* 心得分享页面 */
 
 .body-main{
-	width: 84%;
+	width: 85%;
 	margin-top: 10px;
 }
 .body-main table th{
@@ -103,6 +103,8 @@
 .dropdown-menu{
 	min-width: 77px;
 }
-.deal-button{
+
+
+.mypagination{
 	text-align: center;
 }
